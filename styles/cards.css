@@ -112,3 +112,33 @@
     float: right;
   }
 }
+
+.github-btn {
+  display: inline-block;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bold;
+  font-size: 10px; /* Ridotto da 12px */
+  line-height: 20px; /* Altezza della linea ridotta per un bottone più piccolo */
+  width: auto; /* Larghezza automatica in base al contenuto */
+  min-width: 80px; /* Minima larghezza ridotta */
+  border-radius: 4px; /* Bordo leggermente più piccolo */
+  background: var(--color2);
+  border: none;
+  color: var(--color4);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: 10px; /* Margine superiore ridotto */
+  text-decoration: none;
+  padding: 5px 10px; /* Padding ridotto */
+}
+
+.github-btn:hover {
+  color: var(--color2);
+  background: var(--color4);
+}
+
+.github-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggermente più leggera */
+}

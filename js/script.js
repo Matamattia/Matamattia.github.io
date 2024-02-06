@@ -21,7 +21,7 @@ function navscroll(button) {
 			section = "education";
 			break;		
 		case "btn_projects":
-			section = "projects";
+			section = "my_skills";
 			break;	
 	}
 	fill_typewriter();
