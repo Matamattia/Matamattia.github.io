@@ -8,8 +8,8 @@ var filled = false;
 // set up text to print, each item in array is new line
 var aText = new Array(
 "> Hello!", 
-"> I'm Mattia, studying AI at Politecnico di Milano.", 
-"> My studies in Computer Engineering started at the University of Salerno.",
+"> I'm Mattia, studying CS and Engineering at Politecnico di Milano.", 
+"> I am currently in Stockholm, studying at KTH as an exchange student.",
 "> > I love tech, fitness, and soccer",
 "> If you want to know more about me, you are in the right place :)"
 );
